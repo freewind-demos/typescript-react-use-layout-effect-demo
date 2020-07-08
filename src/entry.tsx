@@ -1,9 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-
-import Hello from './hello'
+import UseEffectRender from "./UseEffectRender";
+import UseLayoutEffectRender from "./UseLayoutEffectRender";
 
 ReactDOM.render(
-  <Hello/>,
+  <div>
+    <UseEffectRender/>
+    <UseLayoutEffectRender/>
+  </div>,
   document.body
 )
