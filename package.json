@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "demo": "webpack-dev-server --open"
+    "demo": "NODE_OPTIONS=--openssl-legacy-provider webpack-dev-server --open"
   },
   "dependencies": {
     "react": "16.9.0",
